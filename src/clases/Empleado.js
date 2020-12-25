@@ -18,7 +18,7 @@ export class Programador extends Empleado { // La clase Programador hereda los m
     }
 };
 
-export class Diseñador extends Empleado {// La clase Diseñador hereda los metodos y propiedades de Empleado (herencia de prototipos).
+export class Diseñador extends Empleado {// La clase Diseñador hereda los métodos y propiedades de Empleado (herencia de prototipos).
 
     constructor(nombre, apellido, edad, id, profesion, tipo){
         super(nombre, apellido, edad, id, profesion);

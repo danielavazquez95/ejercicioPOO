@@ -22,7 +22,7 @@ export class Empresa {
       }
   }   
   obtenerEmpleados(){
-    console.log(this.empleados);
+    return this.empleados;
   }
 
   obtenerEmpleadosPorId (id) {
