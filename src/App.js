@@ -41,8 +41,7 @@ export const App = () => {
         formRef.current.reset();
       }
   };
-
-  console.log(!!listaPorId.nombre);
+  
   return (
    
     <div className="container">
